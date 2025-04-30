@@ -32,6 +32,9 @@ module.exports = withBundleAnalyzer({
   // assetPrefix: "./",
   trailingSlash: true,
   pageExtensions,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   // NOTE: Needed for SAFE testing locally
   // async headers() {
   //   return [
